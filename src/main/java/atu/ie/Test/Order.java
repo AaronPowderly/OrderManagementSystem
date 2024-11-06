@@ -22,11 +22,10 @@ public class Order {
                 }
         }
 
-
-
         System.out.println("Please enter Your name");
         String name1 = sc.nextLine();
-
+        Customer n1 = new Customer();
+        n1.set Name(name1);
 
 
     }
